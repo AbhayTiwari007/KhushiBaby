@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="my_light_primary">#2196F3</color>
+    <color name="my_light_primary_variant">#1976D2</color>
+    <color name="my_light_on_primary">#FFFFFF</color>
+    <color name="my_action_bar_background">#2196F3</color>
+    <color name="my_action_bar_title_color">#FFFFFF</color>
+
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Khushi" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/my_light_primary</item>
+        <item name="colorPrimaryVariant">@color/my_light_primary_variant</item>
+        <item name="colorOnPrimary">@color/my_light_on_primary</item>
+
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">@color/my_light_primary</item>
+
+        <!-- Customize ActionBar -->
+        <item name="android:actionBarStyle">@style/Widget.AppCompat.ActionBar</item>
+        <item name="android:windowActionBarOverlay">false</item>
+    </style>
+
+
+    <style name="Theme.Khushi" parent="Base.Theme.Khushi" />
+
+</resources>
